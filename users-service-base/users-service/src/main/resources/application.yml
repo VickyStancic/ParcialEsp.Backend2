@@ -1,0 +1,52 @@
+eureka:
+  client:
+    enabled: true
+
+server:
+  port: 8089
+
+springdoc:
+  show-actuator: true
+  swagger-ui:
+    groups-order: DESC
+    disable-swagger-default-url: true
+management:
+  endpoints:
+    web:
+      exposure.include: beans, env, health, info, metrics, mappings
+  endpoint:
+    health:
+      show-details: always
+
+app:
+  cors:
+    allowed-origins: http://localhost:3000
+
+spring:
+  application:
+    name: users-service
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/usersdb
+  main:
+    allow-circular-references: true
+  security:
+    oauth2:
+      client:
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8082/realms/DigitalMedia
+        registration:
+          users-service:
+            provider: keycloak
+            client-id: microservicios
+            client-secret: q1XaL3TT2u2WjHkLjx5PWuzEf1t7Q2MQ
+            authorization-grant-type: authorization_code
+            redirect-uri: 'http://localhost:8086/login/oauth2/code/keycloak'
+
+dm:
+  keycloak:
+    realm: DigitalMedia
+    serverUrl: http://localhost:8080/
+    clientId: microservicios
+    clientSecret: q1XaL3TT2u2WjHkLjx5PWuzEf1t7Q2MQ
