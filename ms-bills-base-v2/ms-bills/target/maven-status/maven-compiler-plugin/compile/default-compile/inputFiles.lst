@@ -1,0 +1,11 @@
+C:\Documentos\DigitalHouse\SegundoTrack\2TBimestre2\EspecializaciónBack2\ParcialEspBackend2\ms-bills-base-v2\ms-bills\src\main\java\com\msbills\models\BillWithUser.java
+C:\Documentos\DigitalHouse\SegundoTrack\2TBimestre2\EspecializaciónBack2\ParcialEspBackend2\ms-bills-base-v2\ms-bills\src\main\java\com\msbills\controller\BillController.java
+C:\Documentos\DigitalHouse\SegundoTrack\2TBimestre2\EspecializaciónBack2\ParcialEspBackend2\ms-bills-base-v2\ms-bills\src\main\java\com\msbills\security\Feign\FeignInterceptor.java
+C:\Documentos\DigitalHouse\SegundoTrack\2TBimestre2\EspecializaciónBack2\ParcialEspBackend2\ms-bills-base-v2\ms-bills\src\main\java\com\msbills\security\OAuth2ResourceServerSecurityConfiguration.java
+C:\Documentos\DigitalHouse\SegundoTrack\2TBimestre2\EspecializaciónBack2\ParcialEspBackend2\ms-bills-base-v2\ms-bills\src\main\java\com\msbills\MsBillsApplication.java
+C:\Documentos\DigitalHouse\SegundoTrack\2TBimestre2\EspecializaciónBack2\ParcialEspBackend2\ms-bills-base-v2\ms-bills\src\main\java\com\msbills\security\KeyCloakJwtAuthenticationConverter.java
+C:\Documentos\DigitalHouse\SegundoTrack\2TBimestre2\EspecializaciónBack2\ParcialEspBackend2\ms-bills-base-v2\ms-bills\src\main\java\com\msbills\models\Bill.java
+C:\Documentos\DigitalHouse\SegundoTrack\2TBimestre2\EspecializaciónBack2\ParcialEspBackend2\ms-bills-base-v2\ms-bills\src\main\java\com\msbills\repositories\FeignUserRepository.java
+C:\Documentos\DigitalHouse\SegundoTrack\2TBimestre2\EspecializaciónBack2\ParcialEspBackend2\ms-bills-base-v2\ms-bills\src\main\java\com\msbills\repositories\BillRepository.java
+C:\Documentos\DigitalHouse\SegundoTrack\2TBimestre2\EspecializaciónBack2\ParcialEspBackend2\ms-bills-base-v2\ms-bills\src\main\java\com\msbills\service\BillService.java
+C:\Documentos\DigitalHouse\SegundoTrack\2TBimestre2\EspecializaciónBack2\ParcialEspBackend2\ms-bills-base-v2\ms-bills\src\main\java\com\msbills\models\User.java

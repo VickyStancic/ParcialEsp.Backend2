@@ -1,0 +1,9 @@
+com\msbills\models\BillWithUser.class
+com\msbills\MsBillsApplication.class
+com\msbills\models\User.class
+com\msbills\security\Feign\FeignInterceptor.class
+com\msbills\security\OAuth2ResourceServerSecurityConfiguration.class
+com\msbills\models\Bill.class
+com\msbills\repositories\BillRepository.class
+com\msbills\controller\BillController.class
+com\msbills\security\KeyCloakJwtAuthenticationConverter.class
